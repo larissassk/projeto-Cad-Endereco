@@ -1,7 +1,7 @@
 # projeto-Cad-Endereco
 
 ## 📋 Descrição
-Este é um projeto de Cadastro de Endereço responsivo, utilizando Bootstrap 5.
+Este é um projeto de Cadastro de Endereço responsivo que foi retirado do Bootstrap 5, foi traduzido toda a página e retirando o que nao seria usado do código.
 
 ### 🛠️ Tecnologias utilizadas  
 • GitHub  
