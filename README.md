@@ -7,7 +7,12 @@ Este é um projeto de Cadastro de Endereço responsivo que foi retirado do Boots
 • GitHub  
 • Vscode  
 • HTML5  
-• Bootstrap 5
+• Bootstrap 5  
+• Developer Mozilla  
+
+## Fontes Consultados
+[Bootstrap](https://getbootstrap.com/docs/5.0/forms/overview/#overview)
+[developer.mozilla.](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_expressions)
 
 ## ✒️ Autores
 `Larissa Manrique`  
