@@ -1,9 +1,10 @@
-# projeto-Cad-Endereco
-## Índice  
+# projeto-Cad-Endereco  
+
+# Índice  
 [ Descrição](#-descri%C3%A7%C3%A3o)  
 [Tecnologias utilizadas](#%EF%B8%8F-tecnologias-utilizadas)  
 [Fontes Consultadas](https://github.com/larissassk/projeto-Cad-Endereco#fontes-consultadas)  
-[Autores](#%EF%B8%8F-autores)  
+[Autores](#autores)  
 
 ## 📋 Descrição
 - Este é um projeto de Cadastro de Endereço responsivo que foi retirado todo código do Bootstrap 5.  
