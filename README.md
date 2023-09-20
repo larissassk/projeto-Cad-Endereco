@@ -2,8 +2,7 @@
 
 ## 📋 Descrição
 Este é um projeto de Cadastro de Endereço responsivo que foi retirado do Bootstrap 5, foi traduzido toda a página e retirando o que nao seria usado do código.  
-![img](gif\vid-bootstrap.gif)   
-![img](img\vid-bootstrap.gif)   
+![gif](img\vid-bootstrap.gif)  
 
 ### 🛠️ Tecnologias utilizadas  
 • GitHub  
