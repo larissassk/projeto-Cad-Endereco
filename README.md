@@ -2,7 +2,7 @@
 
 # 📋 Descrição
 Este é um projeto de Cadastro de Endereço responsivo que foi retirado do Bootstrap 5, foi traduzido toda a página e retirando o que nao seria usado do código.  
-![gif](gif\vid-bootstrap.gif)
+![gif](gif\vid-bootstrap.gif)  
 
 ## 🧭 Orientações
 - Foi criado um arquivo .js com a função de limpar o formulário <br> usando esse codigo const LimparFormulario = (endereco) =>.
