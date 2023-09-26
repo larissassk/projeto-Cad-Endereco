@@ -5,7 +5,7 @@ Este é um projeto de Cadastro de Endereço responsivo que foi retirado do Boots
 ![gif](gif\vid-bootstrap.gif)
 
 ## 🧭 Orientações
-- Foi criado um arquivo .js com a função de limpar o formulário, usando esse codigo const LimparFormulario = (endereco) =>.
+- Foi criado um arquivo .js com a função de limpar o formulário <br> usando esse codigo const LimparFormulario = (endereco) =>.
 - Foi criado a função que verifica se o CEP é válido, utilizando a expressão regular test().
 - No index foi criado os campos de input e label, cada um com uma div, e nela modificamos seu tamanho na area col.
 
