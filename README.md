@@ -13,12 +13,12 @@ Este é um projeto de Cadastro de Endereço responsivo que foi retirado do Boots
 # Funcionalidades
 `FUNCIONALIDADE 1`:
 - Se o CEP estiver errado ou for inválido.
-![gif](gif\cepincorreto.gif) 
 <img src="gif\cepincorreto.gif"> 
 
 `FUNCIONALIDADE 2`:
 - o CEP quando é inserido corretamente mostra todos os resultados automaticamente.  
-![gif](gif\endereço_1.gif)  
+<img src="gif\endereço_1.gif"> 
+
 
 # Códigos
  O método `addEventListener()` do JavaScript permite que você configure funções a serem chamadas quando um evento específico acontece.  
