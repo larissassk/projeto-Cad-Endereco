@@ -1,13 +1,25 @@
 # projeto-Cad-Endereco  
 
 # 📋 Descrição
-Este é um projeto de Cadastro de Endereço responsivo que foi retirado do Bootstrap 5, foi traduzido toda a página e retirando o que nao seria usado do código.  
+Este é um projeto de Cadastro de Endereço responsivo que foi retirado do Bootstrap 5, foi traduzido toda a página e retirando o que nao seria usado do código.      
 ![gif](gif/vid-bootstrap.gif)
 
 ## 🧭 Orientações
-- Foi criado um arquivo .js com a função de limpar o formulário <br> usando esse codigo const LimparFormulario = (endereco) =>.
+- Foi criado um arquivo .js com a função de limpar o formulário, usando esse codigo const LimparFormulario = (endereco) =>.
 - Foi criado a função que verifica se o CEP é válido, utilizando a expressão regular test().
 - No index foi criado os campos de input e label, cada um com uma div, e nela modificamos seu tamanho na area col.
+- Utilizamos a função para consumo de API utilizando a função do tipo assimcrona que traz todas informaçoes do CEP inserido.  
+
+# Funcionalidades
+- Se o CEP estiver errado ou for inválido.
+![gif](gif\cepincorreto.gif)  
+- o CEP quando é inserido corretamente mostra todos os resultados automaticamente.  
+![gif](gif\endereço_1.gif)  
+
+# Códigos
+ O método `addEventListener()` do JavaScript permite que você configure funções a serem chamadas quando um evento específico acontece.  
+  O `await` recebe uma Promise e a transforma em um valor de retorno.  
+  `async` significa que o valor de retorno da função será, "por baixo dos panos", uma Promise.  
 
 ## 🛠️ Tecnologias utilizadas  
 • GitHub  
