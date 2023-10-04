@@ -13,7 +13,8 @@ Este é um projeto de Cadastro de Endereço responsivo que foi retirado do Boots
 # Funcionalidades
 `FUNCIONALIDADE 1`:
 - Se o CEP estiver errado ou for inválido.
-![gif](gif\cepincorreto.gif)  
+![gif](gif\cepincorreto.gif) 
+<img src="gif\cepincorreto.gif"> 
 
 `FUNCIONALIDADE 2`:
 - o CEP quando é inserido corretamente mostra todos os resultados automaticamente.  
