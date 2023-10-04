@@ -11,8 +11,11 @@ Este é um projeto de Cadastro de Endereço responsivo que foi retirado do Boots
 - Utilizamos a função para consumo de API utilizando a função do tipo assimcrona que traz todas informaçoes do CEP inserido.  
 
 # Funcionalidades
+`FUNCIONALIDADE 1`:
 - Se o CEP estiver errado ou for inválido.
 ![gif](gif\cepincorreto.gif)  
+
+`FUNCIONALIDADE 2`:
 - o CEP quando é inserido corretamente mostra todos os resultados automaticamente.  
 ![gif](gif\endereço_1.gif)  
 
