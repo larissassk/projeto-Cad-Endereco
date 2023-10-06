@@ -20,7 +20,7 @@ Este é um projeto de Cadastro de Endereço responsivo que foi retirado do Boots
 <img src="gif\endereço_1.gif">  
 
 `FUNCIONALIDADE 3`:
--  Quando o CEP é inserido de forma ivalida ou com mais digitos.  
+-  Quando o CEP é inserido de forma inválida ou com mais digitos.  
 <img src="gif\cepnaoencontrado.gif">  
 
 
