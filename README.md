@@ -17,7 +17,7 @@ Este é um projeto de Cadastro de Endereço responsivo que foi retirado do Boots
 
 `FUNCIONALIDADE 2`:
 - o CEP quando é inserido corretamente mostra todos os resultados automaticamente.  
-<img src="gif\endereço_1.gif"> 
+<img src="gif\endereço_1.gif">  
 
 
 # Códigos
