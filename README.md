@@ -19,6 +19,10 @@ Este é um projeto de Cadastro de Endereço responsivo que foi retirado do Boots
 - o CEP quando é inserido corretamente mostra todos os resultados automaticamente.  
 <img src="gif\endereço_1.gif">  
 
+`FUNCIONALIDADE 3`:
+-  Quando o CEP é inserido de forma ivalida ou com mais digitos.  
+<img src="gif\cepnaoencontrado.gif">  
+
 
 # Códigos
  O método `addEventListener()` do JavaScript permite que você configure funções a serem chamadas quando um evento específico acontece.  
