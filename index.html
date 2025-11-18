@@ -5,40 +5,121 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Cadastro de Endereço</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='/main.css'>
-    <script src='main.js'></script> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<style>
+/* Estilo de Card Moderno (Fundo Cinza e Sombra) */
+:root {
+    --primary-color: #007bff;
+    --background-color: #f8f9fa; /* Fundo cinza claro */
+    --card-background: #ffffff; /* Fundo do formulário */
+    --shadow-color: rgba(0, 0, 0, 0.15);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+/* Container principal (Adiciona limite, centraliza e aplica sombra/fundo) */
+.container {
+    max-width: 650px;
+    margin-top: 50px !important; 
+    margin-bottom: 50px !important;
+    padding: 30px;
+    background-color: var(--card-background);
+    border-radius: 12px;
+    box-shadow: 0 6px 20px var(--shadow-color); /* Sombra mais visível */
+}
+
+/* Título */
+h1 {
+    color: #343a40;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e9ecef; /* Linha de separação suave */
+    padding-bottom: 10px;
+}
+
+/* Inputs */
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+/* Botão de Cadastro */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    font-size: 1.1em;
+    padding: 10px 15px;
+    margin-top: 15px; 
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        padding: 20px;
+    }
+}
+</style>
 </head>
 <body>
-    <form class="row g-3">
-        
-        <div class="col-md-6">
-            <label for="inputZip" class="form-label">CEP</label>
-            <input type="text" class="form-control" id="cep">
-          </div>
-        <div class="col-8">
-          <label for="inputAddress" class="form-label"> Endereço</label>
-          <input type="text" class="form-control" id="rua" placeholder="Joaquim Nabuco">
-        </div>
-        <div class="col-4">
-          <label for="inputAddress" class="form-label"> Numero</label>
-          <input type="text" class="form-control" id="numero" placeholder="1234">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label">Bairro</label>
-          <input type="text" class="form-control" id="bairro">
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">Cidade</label>
-          <input type="text" class="form-control" id="cidade">
-        </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">Estado</label>
-          <input type="text" class="form-control" id="estado">
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Cadastrar</button>
-        </div>
-      </form>
-      <script type="text/javascript" src="./controller.js"></script>
+    
+    <div class="container mt-5">
+        <h1 class="mb-4">Cadastro de Endereço com API</h1>
+
+        <form class="row g-3" action="#" method="POST">
+            
+            <div class="col-md-6">
+                <label for="cep" class="form-label">CEP</label>
+                <input type="text" class="form-control" id="cep" name="cep" maxlength="9" required>
+            </div>
+            
+            <div class="col-md-8">
+                <label for="rua" class="form-label"> Endereço</label>
+                <input type="text" class="form-control" id="rua" name="rua" placeholder="Rua Joaquim Nabuco">
+            </div>
+            
+            <div class="col-md-4">
+                <label for="numero" class="form-label"> Número</label>
+                <input type="text" class="form-control" id="numero" name="numero" placeholder="1234">
+            </div>
+            
+            <div class="col-12">
+                <label for="bairro" class="form-label">Bairro</label>
+                <input type="text" class="form-control" id="bairro" name="bairro">
+            </div>
+            
+            <div class="col-md-6">
+                <label for="cidade" class="form-label">Cidade</label>
+                <input type="text" class="form-control" id="cidade" name="cidade">
+            </div>
+            
+            <div class="col-md-4">
+                <label for="estado" class="form-label">Estado</label>
+                <input type="text" class="form-control" id="estado" name="estado">
+            </div>
+            
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./controller.js"></script>
 </body>
 </html>

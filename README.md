@@ -1,45 +1,55 @@
-# projeto-Cad-Endereco  
+# projeto-Cad-Endereco 📦
 
-# 📋 Descrição
-Este é um projeto de Cadastro de Endereço responsivo que foi retirado do Bootstrap 5, foi traduzido toda a página e retirando o que nao seria usado do código.      
-![gif](gif/vid-bootstrap.gif)
+## 📋 Descrição do Projeto
 
-## 🧭 Orientações
-- Foi criado um arquivo .js com a função de limpar o formulário, usando esse codigo const LimparFormulario = (endereco) =>.
-- Foi criado a função que verifica se o CEP é válido, utilizando a expressão regular test().
-- No index foi criado os campos de input e label, cada um com uma div, e nela modificamos seu tamanho na area col.
-- Utilizamos a função para consumo de API utilizando a função do tipo assimcrona que traz todas informaçoes do CEP inserido.  
+Este projeto demonstra a integração de **Frontend** e **API** para automatizar o preenchimento de formulários de endereço. Utiliza o **Fetch API assíncrono** (`async/await`) para buscar dados do CEP na ViaCEP, garantindo uma experiência de usuário **rápida**, **precisa** e prevenindo a submissão de formulário inadequada.
 
-# Funcionalidades
-`FUNCIONALIDADE 1`:
-- Se o CEP estiver errado ou for inválido.
-<img src="gif\cepincorreto.gif"> 
+**Objetivo:** Reduzir erros de digitação e melhorar a qualidade dos dados de cadastro.
 
-`FUNCIONALIDADE 2`:
-- o CEP quando é inserido corretamente mostra todos os resultados automaticamente.  
-<img src="gif\endereço_1.gif">  
+---
 
-`FUNCIONALIDADE 3`:
--  Quando o CEP é inserido de forma inválida ou com mais digitos.  
-<img src="gif\cepnaoencontrado.gif">  
+## ⚙️ Arquitetura e Competências
 
+Esta aplicação foca em demonstrar competências essenciais de desenvolvimento Web:
 
-# Códigos
- O método `addEventListener()` do JavaScript permite que você configure funções a serem chamadas quando um evento específico acontece.  
-  O `await` recebe uma Promise e a transforma em um valor de retorno.  
-  `async` significa que o valor de retorno da função será, "por baixo dos panos", uma Promise.  
+* **Validação de Dados:** Uso de Expressões Regulares (`RegEx`) para garantir que o formato do CEP seja válido antes de consumir a API.
+* **Consumo de API:** Utilização da função assíncrona (`async`/`await` com `fetch`) para buscar dados em segundo plano, sem travar a interface.
+* **Manipulação do DOM:** Uso do método `addEventListener()` para capturar eventos de usuário (`focusout`, `submit`) e atualizar o formulário dinamicamente.
+* **Tratamento de Erros:** Implementação de lógica para tratar CEPs não encontrados (`address.hasOwnProperty('erro')`) e outros erros de requisição.
+* **UX/Formulários:** Prevenção do comportamento padrão de submissão de formulário (`e.preventDefault()`) para evitar recarregamento de página.
 
-## 🛠️ Tecnologias utilizadas  
-• GitHub  
-• Vscode  
-• HTML5  
-• Bootstrap 5  
-• Developer Mozilla  
+### Estrutura de Código
 
-## 🖇️ Fontes Consultados
+* **HTML/Bootstrap:** Responsividade e estrutura de layout (Sistema Grid).
+* **Controller.js:** Toda a lógica de requisição, validação e manipulação do DOM.
+
+---
+
+## ✨ Demonstração e Experiência do Usuário
+![img](img/cadastrocep.png) 
+
+O sistema oferece feedback instantâneo ao usuário:
+
+### 1. Preenchimento Automático
+Ao digitar um CEP válido e sair do campo, o formulário é preenchido em tempo real.
+![gif](gif/endereço_1.gif) 
+
+### 2. Tratamento de Erros
+O sistema valida o formato do CEP e alerta o usuário se o CEP for inválido ou não for encontrado.
+![gif](gif/cepincorreto.gif) 
+![gif](gif/cepnaoencontrado.gif) 
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+* **Linguagens:** HTML5, CSS3, JavaScript (ES6+)
+* **Frameworks/Bibliotecas:** Bootstrap 5
+* **API:** ViaCEP (Utilizada para consulta de endereços)
+
+## 🖇️ Fontes Consultadas
 [Bootstrap](https://getbootstrap.com/docs/5.0/forms/layout/#gutters)  
-[Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_expressions)
+[Developer Mozilla (RegEx e Fetch)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_expressions)
 
-## ✒️ Autores 
-  |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127845865?v=4" width=100><br><sub>Larissa Manrique</sub>](https://github.com/larissassk) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127847857?v=4" width=100><br><sub>Emilly Caroline </sub>](https://github.com/emillycaaroline) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127847936?v=4" width=100><br><sub>Amanda Vitória</sub>](https://github.com/amandvitoria) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=100><br><sub>Leonardo Rocha </sub>](https://github.com/LeonardoRochaMarista) | 
-| :---: | :---: | :---: | :---: |
+## ✒️ Autores  
+| | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127845865?v=4" width=100><br><sub>Larissa Manrique</sub>](https://github.com/larissassk) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127847857?v=4" width=100><br><sub>Emilly Caroline </sub>](https://github.com/emillycaaroline) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127847936?v=4" width=100><br><sub>Amanda Vitória</sub>](https://github.com/amandvitoria) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=100><br><sub>Leonardo Rocha </sub>](https://github.com/LeonardoRochaMarista) |  
+| :---: | :---: | :---: | :---: | :---: |
