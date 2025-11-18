@@ -10,7 +10,7 @@ Este projeto demonstra a integração de **Frontend** e **API** para automatizar
 
 ## ⚙️ Arquitetura e Competências
 
-Esta aplicação foca em demonstrar competências essenciais de desenvolvimento Web:
+Esta aplicação foca em demonstrar competências essenciais de desenvolvimento Web: 
 
 * **Validação de Dados:** Uso de Expressões Regulares (`RegEx`) para garantir que o formato do CEP seja válido antes de consumir a API.
 * **Consumo de API:** Utilização da função assíncrona (`async`/`await` com `fetch`) para buscar dados em segundo plano, sem travar a interface.
@@ -47,9 +47,14 @@ O sistema valida o formato do CEP e alerta o usuário se o CEP for inválido ou 
 * **API:** ViaCEP (Utilizada para consulta de endereços)
 
 ## 🖇️ Fontes Consultadas
-[Bootstrap](https://getbootstrap.com/docs/5.0/forms/layout/#gutters)  
+[Bootstrap](https://getbootstrap.com/docs/5.0/forms/layout/#gutters)  
 [Developer Mozilla (RegEx e Fetch)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_expressions)
 
-## ✒️ Autores  
-| | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127845865?v=4" width=100><br><sub>Larissa Manrique</sub>](https://github.com/larissassk) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127847857?v=4" width=100><br><sub>Emilly Caroline </sub>](https://github.com/emillycaaroline) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127847936?v=4" width=100><br><sub>Amanda Vitória</sub>](https://github.com/amandvitoria) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=100><br><sub>Leonardo Rocha </sub>](https://github.com/LeonardoRochaMarista) |  
-| :---: | :---: | :---: | :---: | :---: |
+## ✒️ Autores  
+
+| Foto | Nome | GitHub |
+| :---: | :---: | :---: |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127845865?v=4" width=100>](https://github.com/larissassk) | <sub>Larissa Manrique</sub> | [larissassk](https://github.com/larissassk) |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127847857?v=4" width=100>](https://github.com/emillycaaroline) | <sub>Emilly Caroline </sub> | [emillycaaroline](https://github.com/emillycaaroline) |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127847936?v=4" width=100>](https://github.com/amandvitoria) | <sub>Amanda Vitória</sub> | [amandvitoria](https://github.com/amandvitoria) |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/86802310?v=4" width=100>](https://github.com/LeonardoRochaMarista) | <sub>Leonardo Rocha </sub> | [LeonardoRochaMarista](https://github.com/LeonardoRochaMarista) |
